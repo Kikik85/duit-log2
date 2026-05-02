@@ -43,7 +43,7 @@ export function MonthSelector({
           <select
             value={activeMonth}
             onChange={(e) => onChange(e.target.value)}
-            className="absolute inset-0 cursor-pointer opacity-0"
+            className="absolute inset-0 cursor-pointer opacity-1"
             aria-label="Select month"
           >
             {months.map((m) => (
