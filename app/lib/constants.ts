@@ -7,10 +7,10 @@ export const CATEGORIES = [
   'Entertainment',
   'Shopping',
   'Education',
-  'Other'
+  'Gift'
 ] as const;
 
-export const METHODS = ['Cash', 'Mandiri', 'QRIS'] as const;
+export const METHODS = ['Cash', 'QRIS', 'Bank'] as const;
 
 export const SOURCES = ['Kikik', 'Hasna', 'Together'] as const;
 
